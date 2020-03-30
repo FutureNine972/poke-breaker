@@ -23,6 +23,7 @@ public class SceneLoader : MonoBehaviour {
         if (lives != null) 
         {
             lives.GiveExtraLife();
+            
             lives.SetExtraLivesText();
         }
 
